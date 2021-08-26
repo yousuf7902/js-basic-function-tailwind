@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Macbook Pro</title>
+    <!-- Tailwind link -->
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <section class="mt-10 mx-24">
+            <div class="flex">
+                <div class="pr-24 ">
+                    <img  src="images/mac.png" alt="macbook pic" width="800px">
+                </div>
+                <div>
+                    <div class="pb-6">
+                        <h1 class="text-3xl pb-1">Customize your Blue 24-inch iMac with Apple M1 chip</h1>
+                        <p class="text-xl">Apple M1 chip with 8-core CPU with 4 perfomance cores and 4 efficiency cores, 7-core GPU, and 16-core Neural Engine 8GB unified memory 256GB SSD storage Two Thunderbolt/USB 4 ports Magic Mouse Magic Keyborad-US English</p>
+                    </div>
+                        
+                    <div class="mb-5">
+                        <h4 class="text-3xl mb-2">Memory</h4>
+                        <button id="memory-8gb" class="w-80 h-10 mr-3 border-2 rounded-2xl hover:bg-gray-800 hover:text-white">8GB unified memory</button>
+                        <button id="memory-16gb" class="w-80 h-10 border-2 rounded-2xl hover:bg-gray-800 hover:text-white">16GB unified memory</button>
+                    </div>
+                    <div class="mb-5">
+                        <h4 class="text-3xl mb-2">Storage</h4>
+                        <button id="storage-256gb" class="w-80 h-10 mr-3 border-2 rounded-2xl hover:bg-gray-800 hover:text-white">256GB SSD Storage</button>
+                        <button id="storage-512gb" class="w-80 h-10 mr-3 border-2 rounded-2xl hover:bg-gray-800 hover:text-white">512GB SSD Storage</button>
+                        <button id="storage-1tb" class="w-80 h-10 border-2 rounded-2xl hover:bg-gray-800 hover:text-white">1TB SSD Storage</button>
+                        
+                    </div>
+                    <div>
+                        <h4 class="text-3xl mb-2">Choose your delivery option</h4>
+                        <button id="free-delivery"  class="w-80 h-10 mr-3 border-2 rounded-2xl hover:bg-gray-800 hover:text-white">Friday,Aug 25 Free Prime Delivery</button>
+                        <button id="paid-delivery"  class="w-80 h-10 mr-3 border-2 rounded-2xl hover:bg-gray-800 hover:text-white">Friday,Aug 21 Delivery charge $20</button>
+                    </div>
+                    <div>
+                        <h1 class="text-4xl my-14 underline text-center">Product Cost Area</h1>
+                        
+                    <div class="text-2xl mb-3 flex w-4/12 justify-between">
+                        <p>Best Price</p>
+                        <p>$<span id="best-price">1299</span></p>
+                    </div>
+                    <hr class="w-2/4">
+                    <div class="text-2xl mb-3 flex w-4/12 justify-between">
+                        <p>Extra Memory Cost</p>
+                        <p>$<span id="memory-cost">0</span></p>
+                    </div>
+                    <hr class="w-2/4">
+                    <div class="text-2xl mb-3 flex w-4/12 justify-between">
+                        <p>Extra Storage Cost</p>
+                        <p>$<span id="storage-cost">0</span></p>
+                    </div>
+                    <hr class="w-2/4">
+                    <div class="text-2xl mb-3 flex w-3/6 justify-between">
+                        <p>Delivery Charge</p>
+                        <p>$<span id="delivery-cost">0</span></p>
+                        <hr>
+                    </div>
+                    <hr class="w-2/4">
+                    <div class="text-2xl mb-3 flex w-4/12 justify-between">
+                        <p>Total Price</p>
+                        <p>$<span id="total-price">1299</span></p>
+                    </div>
+                    <div class="text-2xl my-10">
+                        <h1 class="underline mb-5">Add Promo Code</h1>
+                        <input id="promo-input" class="border-4" type="text"><br>
+                        <button id="promo-btn" class="w-36 h-10 mr-3 border-2 rounded text-lg mt-5 hover:bg-gray-800 hover:text-white">Apply</button>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <hr class="border-2 bg-black">
+        <h1 class="text-4xl text-center my-5">Total: $<span id="footer-total">1299</span></h1>
+    </footer>
+
+
+
+
+
+    <script src="js/script.js"></script>
+</body>
+</html>
